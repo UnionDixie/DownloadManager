@@ -2,18 +2,6 @@
 
 net::Soket::Soket()
 {
-
-	//sf::TcpSocket socket;
-//sf::Socket::Status status = socket.connect("127.0.0.1", 80);
-//
-//if (status != sf::Socket::Done)
-//{
-//	print("Error'\n");
-//	// error...
-//}
-//else {
-//	print("OK\n");
-//}
 }
 
 void net::Soket::open()
@@ -56,16 +44,19 @@ void net::Soket::clientStart()
 	char data[20];
 	std::size_t received;
 
-	while (true)
+	int n = 1;
+	while (n!=3)
 	{
+		std::cin >> n;
 		// TCP socket:
 		if (client.receive(data, 20, received) != sf::Socket::Done)
 		{
 			print("Error receive!\n");
 			// error...
-		}
+		} else {
 		std::cout << "Received " << received << " bytes" << std::endl;
 		std::cout << "Received " << data << " bytes" << std::endl;
+		}
 	}
 
 }
@@ -88,16 +79,18 @@ void net::Soket::serverStart()
 		print("Error accept\n");
 	}
 
-	char data[20] = "Testing..\n";
+	///char data[20] = "Testing..\n";
 
 	// TCP socket:
+	std::string str = "Testting...\n";
 	int k = 0;
 	while (k != 3) {
-		std::cin >> k;
-		if (clients.front()->send(data, 20) != sf::Socket::Done)
+		
+		if (clients.front()->send(str.c_str(), 20) != sf::Socket::Done)
 		{
 			print("Error send\n");
 		}
+		std::cin >> k >> str;
 	}
 
 

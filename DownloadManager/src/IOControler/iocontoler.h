@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 #include <string_view>
-#include <SFML/Network.hpp>
+//#include <SFML/Network.hpp>
 
 #include "../Socket/socket.h"
 #include "../Downloader/downloader.h"
