@@ -51,6 +51,9 @@
     <ClCompile Include="src\Socket\socket.cpp">
       <Filter>Source Files\ver 1.0\socket</Filter>
     </ClCompile>
+    <ClCompile Include="DownloaderCURL.cpp">
+      <Filter>Source Files\ver 2.0</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Downloader\downloader.h">
@@ -67,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="src\Utility\utility.h">
       <Filter>Source Files\ver 1.0\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ver 2.0\DownloaderCURL.h">
+      <Filter>Source Files\ver 2.0</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

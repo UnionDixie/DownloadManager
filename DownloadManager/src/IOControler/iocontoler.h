@@ -9,6 +9,8 @@
 
 #include "../Utility/utility.h"
 
+#include "../ver 2.0/DownloaderCURL.h"
+
 class IO
 {
 public:
@@ -22,6 +24,8 @@ private:
 
 	Downloader downloader;//ok but havent https
 
+	DownloaderCURL downloaderCURL;
+
 	enum TextEnum
 	{
 		Hello,
@@ -29,11 +33,13 @@ private:
 		download,
 		exit,
 	};
-	std::vector<std::string> text = {
+	const std::vector<std::string> text = {
 		"Hello! I am starting...\n",
 		"1 - File Transfer\n",
 		"2 - Insert link for download\n",
-		"3 - Exit\n"
+		"3 - Download file(cURL,name)\n",
+		"4 - getResponce(cuRL)\n",
+		"5 - Exit\n"
 	};
 
 

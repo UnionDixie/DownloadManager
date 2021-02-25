@@ -59,3 +59,8 @@ DownloadManager/Release/main.obj
 DownloadManager/Release/saver.obj
 DownloadManager/Release/socket.obj
 DownloadManager/Release/vc142.pdb
+DownloadManager/.vs/DownloadManager/v16/ipch/AutoPCH/2ef7256de78e6e9c/DOWNLOADERCURL.ipch
+DownloadManager/.vs/DownloadManager/v16/ipch/AutoPCH/884b8f8cf7b64800/DOWNLOADERCURL.ipch
+DownloadManager/.vs/DownloadManager/v16/ipch/AutoPCH/b51cd5b8032f036a/DOWNLOADER.ipch
+DownloadManager/Debug/DownloaderCURL.obj
+DownloadManager/Source.cpp

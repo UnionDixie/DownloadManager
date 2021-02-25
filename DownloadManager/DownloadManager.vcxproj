@@ -149,6 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DownloaderCURL.cpp" />
     <ClCompile Include="src\Downloader\downloader.cpp" />
     <ClCompile Include="src\IOControler\iocontoler.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="src\Saver\saver.h" />
     <ClInclude Include="src\Socket\socket.h" />
     <ClInclude Include="src\Utility\utility.h" />
+    <ClInclude Include="src\ver 2.0\DownloaderCURL.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

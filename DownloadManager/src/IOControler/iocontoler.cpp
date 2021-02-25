@@ -11,11 +11,21 @@ IO::IO()
 void IO::run()
 {
 	int n = 0;
-	while (n!=3)
+	while (n!=5)
 	{
 		std::cin >> n;
 		if ( n == 1 || n == 2)
 			func[n]();
+		if (n == 3) {
+			std::string url,name;
+			std::cin >> url >> name;
+			downloaderCURL.downloadFile(url,name);
+		}
+		else if (n == 4) {
+			std::string url;
+			std::cin >> url;
+			downloaderCURL.getResponce(url);
+		}
 	}
 }
 
