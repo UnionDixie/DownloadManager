@@ -13,54 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\downloader">
-      <UniqueIdentifier>{6297f84c-deb6-4bd7-bf8c-ed72c4cbf927}</UniqueIdentifier>
+    <Filter Include="Source Files\ver 1.0">
+      <UniqueIdentifier>{616196f4-4ce0-4dc4-8ab2-7805649546cc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\IOcontoler">
+    <Filter Include="Source Files\ver 2.0">
+      <UniqueIdentifier>{825f7cce-e17a-4381-9634-eaa75bcf5f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ver 1.0\IOcontoler">
       <UniqueIdentifier>{a14ed4a7-295f-45a0-9464-db9ab5d6a1be}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Saver">
+    <Filter Include="Source Files\ver 1.0\downloader">
+      <UniqueIdentifier>{6297f84c-deb6-4bd7-bf8c-ed72c4cbf927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ver 1.0\Saver">
       <UniqueIdentifier>{65e84a86-4643-461f-9765-9cbd12b48ca4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\socket">
+    <Filter Include="Source Files\ver 1.0\socket">
       <UniqueIdentifier>{0e0c6e23-849c-4a8a-a360-c157a522c19d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Utility">
+    <Filter Include="Source Files\ver 1.0\Utility">
       <UniqueIdentifier>{d74933e4-b1c2-4736-8075-42aa7f250433}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Downloader\downloader.cpp">
-      <Filter>Source Files\downloader</Filter>
+      <Filter>Source Files\ver 1.0\downloader</Filter>
     </ClCompile>
     <ClCompile Include="src\IOControler\iocontoler.cpp">
-      <Filter>Source Files\IOcontoler</Filter>
+      <Filter>Source Files\ver 1.0\IOcontoler</Filter>
     </ClCompile>
     <ClCompile Include="src\Saver\saver.cpp">
-      <Filter>Source Files\Saver</Filter>
+      <Filter>Source Files\ver 1.0\Saver</Filter>
     </ClCompile>
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Socket\socket.cpp">
-      <Filter>Source Files\socket</Filter>
+      <Filter>Source Files\ver 1.0\socket</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Downloader\downloader.h">
-      <Filter>Source Files\downloader</Filter>
+      <Filter>Source Files\ver 1.0\downloader</Filter>
     </ClInclude>
     <ClInclude Include="src\IOControler\iocontoler.h">
-      <Filter>Source Files\IOcontoler</Filter>
+      <Filter>Source Files\ver 1.0\IOcontoler</Filter>
     </ClInclude>
     <ClInclude Include="src\Saver\saver.h">
-      <Filter>Source Files\Saver</Filter>
+      <Filter>Source Files\ver 1.0\Saver</Filter>
     </ClInclude>
     <ClInclude Include="src\Socket\socket.h">
-      <Filter>Source Files\socket</Filter>
+      <Filter>Source Files\ver 1.0\socket</Filter>
     </ClInclude>
     <ClInclude Include="src\Utility\utility.h">
-      <Filter>Source Files\Utility</Filter>
+      <Filter>Source Files\ver 1.0\Utility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
