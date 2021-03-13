@@ -1,13 +1,11 @@
-#include "../DownloadManager/src/ver 2.0/DownloaderCURL.h"
+#include "..//ver 2.0/DownloaderCURL.h"
 
 
 DownloaderCURL::DownloaderCURL()
 {
 }
 
-DownloaderCURL::~DownloaderCURL()
-{
-}
+
 
 void DownloaderCURL::getResponce(std::string_view url)
 {
@@ -39,3 +37,13 @@ bool DownloaderCURL::downloadFile(std::string_view url, std::string_view name)
 	return true;
 }
 
+
+void DownloaderCURL::testDownload()
+{
+    
+}
+
+
+DownloaderCURL::~DownloaderCURL()
+{
+}

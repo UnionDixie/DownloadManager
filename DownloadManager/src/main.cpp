@@ -1,8 +1,10 @@
-#include "IOControler/iocontoler.h"
+#include "kernel/Kernel.h"
 
 int main () {
-	IO io;
-	io.run();
+	Kernel kernel;
+	kernel.run();
+
+	std::cin.get();
 
 	return 0;
 }

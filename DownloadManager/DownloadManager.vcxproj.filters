@@ -13,66 +13,75 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\ver 1.0">
-      <UniqueIdentifier>{616196f4-4ce0-4dc4-8ab2-7805649546cc}</UniqueIdentifier>
+    <Filter Include="Source Files\kernel">
+      <UniqueIdentifier>{2cc17ce1-05cb-43ba-b965-c89739770e45}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ver 2.0">
-      <UniqueIdentifier>{825f7cce-e17a-4381-9634-eaa75bcf5f74}</UniqueIdentifier>
+    <Filter Include="Source Files\kernel\IO">
+      <UniqueIdentifier>{5287bc49-b8d3-4a40-ac7f-8c606ef8fa1c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ver 1.0\IOcontoler">
-      <UniqueIdentifier>{a14ed4a7-295f-45a0-9464-db9ab5d6a1be}</UniqueIdentifier>
+    <Filter Include="Source Files\kernel\saver">
+      <UniqueIdentifier>{d8a769cb-083d-4a6c-ae7d-d2dcb53dabab}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ver 1.0\downloader">
-      <UniqueIdentifier>{6297f84c-deb6-4bd7-bf8c-ed72c4cbf927}</UniqueIdentifier>
+    <Filter Include="Source Files\kernel\socket">
+      <UniqueIdentifier>{40446900-4f46-46d9-a7c3-bd40ef04bf31}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ver 1.0\Saver">
-      <UniqueIdentifier>{65e84a86-4643-461f-9765-9cbd12b48ca4}</UniqueIdentifier>
+    <Filter Include="Source Files\kernel\DownloadManager">
+      <UniqueIdentifier>{ab9690f1-8359-48cc-b8b3-e8d072a52283}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ver 1.0\socket">
-      <UniqueIdentifier>{0e0c6e23-849c-4a8a-a360-c157a522c19d}</UniqueIdentifier>
+    <Filter Include="Source Files\kernel\DownloadManager\curl">
+      <UniqueIdentifier>{3a3f83b6-7cf9-4dd1-9d7b-1bd249771ad2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ver 1.0\Utility">
-      <UniqueIdentifier>{d74933e4-b1c2-4736-8075-42aa7f250433}</UniqueIdentifier>
+    <Filter Include="Source Files\kernel\DownloadManager\sfmlNet">
+      <UniqueIdentifier>{38031e66-c27a-4b9a-bfe2-62a7ee2687a6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Downloader\downloader.cpp">
-      <Filter>Source Files\ver 1.0\downloader</Filter>
-    </ClCompile>
-    <ClCompile Include="src\IOControler\iocontoler.cpp">
-      <Filter>Source Files\ver 1.0\IOcontoler</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Saver\saver.cpp">
-      <Filter>Source Files\ver 1.0\Saver</Filter>
-    </ClCompile>
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Socket\socket.cpp">
-      <Filter>Source Files\ver 1.0\socket</Filter>
+    <ClCompile Include="src\kernel\Kernel.cpp">
+      <Filter>Source Files\kernel</Filter>
     </ClCompile>
-    <ClCompile Include="DownloaderCURL.cpp">
-      <Filter>Source Files\ver 2.0</Filter>
+    <ClCompile Include="src\kernel\io\io.cpp">
+      <Filter>Source Files\kernel\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\saver\Saver.cpp">
+      <Filter>Source Files\kernel\saver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\socket\Socket.cpp">
+      <Filter>Source Files\kernel\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\downloader\Downloader.cpp">
+      <Filter>Source Files\kernel\DownloadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\downloader\curl\curlDownloader.cpp">
+      <Filter>Source Files\kernel\DownloadManager\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernel\downloader\sfmlNet\sfmlDownloader.cpp">
+      <Filter>Source Files\kernel\DownloadManager\sfmlNet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Downloader\downloader.h">
-      <Filter>Source Files\ver 1.0\downloader</Filter>
+    <ClInclude Include="src\kernel\Kernel.h">
+      <Filter>Source Files\kernel</Filter>
     </ClInclude>
-    <ClInclude Include="src\IOControler\iocontoler.h">
-      <Filter>Source Files\ver 1.0\IOcontoler</Filter>
+    <ClInclude Include="src\kernel\io\io.h">
+      <Filter>Source Files\kernel\IO</Filter>
     </ClInclude>
-    <ClInclude Include="src\Saver\saver.h">
-      <Filter>Source Files\ver 1.0\Saver</Filter>
+    <ClInclude Include="src\kernel\saver\Saver.h">
+      <Filter>Source Files\kernel\saver</Filter>
     </ClInclude>
-    <ClInclude Include="src\Socket\socket.h">
-      <Filter>Source Files\ver 1.0\socket</Filter>
+    <ClInclude Include="src\kernel\socket\Socket.h">
+      <Filter>Source Files\kernel\socket</Filter>
     </ClInclude>
-    <ClInclude Include="src\Utility\utility.h">
-      <Filter>Source Files\ver 1.0\Utility</Filter>
+    <ClInclude Include="src\kernel\downloader\Downloader.h">
+      <Filter>Source Files\kernel\DownloadManager</Filter>
     </ClInclude>
-    <ClInclude Include="src\ver 2.0\DownloaderCURL.h">
-      <Filter>Source Files\ver 2.0</Filter>
+    <ClInclude Include="src\kernel\downloader\curl\curlDownloader.h">
+      <Filter>Source Files\kernel\DownloadManager\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel\downloader\sfmlNet\sfmlDownloader.h">
+      <Filter>Source Files\kernel\DownloadManager\sfmlNet</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
